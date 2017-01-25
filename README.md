@@ -7,6 +7,12 @@ This repository contains my current Vim setup with various plugins included via 
 2. Remove existing `.vim` and `.vimrc`
 3. Run setup.sh (This will symlink `.vim` and `.vimrc` from this repo to home)
 4. Follow `Vim-DevIcons` installation guide at https://github.com/ryanoasis/vim-devicons
+5. Install nerd-fonts
+
+## Install nerd-fonts
+$ git clone https://github.com/ryanoasis/nerd-fonts.git 
+$ cd nerd-fonts 
+$ ./install.sh
 
 ## Plugins included
 - Raimondi/delimitMate
